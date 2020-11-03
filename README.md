@@ -1,16 +1,13 @@
-# Chatty
+# Chatty - Messages with Location
 
-A new Flutter project.
+This is Chatty the messaging app.
 
-## Getting Started
+## What does it do:
+It is a messaging app in which you can sender's location from where he/she is sending you messages. You can also search other users who have registered on this app.
 
-This project is a starting point for a Flutter application.
+## What I have used:
+I have used Firebase to store all chats and user's information.
+To fetch current location used geolocator package and to convert current location's coordinates I used geocoder package. This package is very helpful to convert coordinates into addressLine or vice versa.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NOTE: Please check out the code given in this repositery.
